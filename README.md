@@ -1,2 +1,4 @@
-# minha_plantao
-Desenvolvimento do sistema de contracheques e informativos.
+# CURSO DE PHP
+
+Nesse projeto engloba todos os assuntos do curso.
+
