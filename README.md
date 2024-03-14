@@ -1,4 +1,4 @@
 # CURSO DE PHP
 
-Nesse projeto engloba todos os assuntos do curso.
+Esse projeto engloba todos os assuntos visto no curso e será atualizado com junto com o andamento das aulas.
 
