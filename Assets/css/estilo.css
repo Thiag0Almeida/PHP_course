@@ -48,7 +48,71 @@ body{
     padding: 20px;
 }
 
+.conteudo{
+    position: relative;
+    height: 100%;
+    overflow-y: scroll;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
+}
+
 .rodape{
     grid-area: rodape;
     background-color: #ffff;
+    color: #444;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.2rem;
+    padding-right: 20px;
 }
+
+.modulos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.modulo{
+    flex-basis: 32%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.modulo > h3{
+    margin: 0px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    background-color: #1867c1;
+}
+
+.modulo > ul{
+    margin: 0px;
+    padding: 10px;
+    list-style: none;
+}
+
+.modulo > ul > li{
+    padding: 7px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.modulo > ul > li > a{
+    display: flex;
+    text-decoration: none;
+    color: #222;
+}
+
+.modulo > ul li:hover{
+    background-color: #EEE;
+}
+
+.modulo.vermelho { border: 2px solid #f44336; }
+.modulo.vermelho > h3 { background-color: #f44336; }
+
+.modulo.azul { border: 2px solid #1867c1}
+.modulo.azul > h3 { background-color: #1867c1 }
