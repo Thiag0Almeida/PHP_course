@@ -23,9 +23,21 @@
                 <div class="modulo azul">
                     <h3>Módulo 1 - Inicio</h3>
                     <ul>
-                        <li><a href="exercicio.php?dir=teste&file=teste">Exercício A</a></li>
-                        <li><a href="#">Exercício B</a></li>
-                        <li><a href="#">Exercício C</a></li>
+                        <li>
+                            <a href="exercicio.php?dir=basic&file=ola">Olá PHP</a>
+                        </li>
+                        
+                        <li>
+                            <a href="exercicio.php?dir=basic&file=html">Integração HTML</a>
+                        </li>
+                        
+                        <li>
+                            <a href="exercicio.php?dir=basic&file=css">Integração CSS</a>
+                        </li>
+                        
+                        <li>
+                            <a href="exercicio.php?dir=basic&file=desafio">Desafio</a>
+                        </li>
                     </ul>
                 </div>
                 <div class="modulo azul">
